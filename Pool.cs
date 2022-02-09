@@ -3,6 +3,9 @@
 // Requires Unity 2021.1 or later:
 	// The serializer can now serialize fields of generic types directly;
 	// it is no longer necessary to derive a concrete subclass from a generic type in order to serialize it
+using System.Collections.Generic;
+using UnityEngine;
+
 [System.Serializable]
 public class Pool<T> where T : Component {
 
